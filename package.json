@@ -1,0 +1,47 @@
+{
+    "name": "PradheepBoilerPlate",
+    "version": "1.0.0",
+    "description": "Boilerplate project to run native and browser for android and ios using cucumber with page object pattern",
+    "scripts": {
+        "android": "wdio ./config/android.config.js",
+        "ios": "wdio ./config/ios.config.js",
+        "androidBrowser": "wdio ./config/androidBrowser.config.js",
+        "iosBrowser": "wdio ./config/iosBrowser.config.js",
+        "lint": "eslint .",
+        "wdio": "wdio run wdio.conf.js"
+    },
+    "keywords": [
+        "Appium",
+        "cucumber",
+        "npm init wdio .",
+        "wdio",
+        "mobile automation",
+        "native apps",
+        "mobile browser"
+    ],
+    "author": "Arjun Annamalai - arjun1120@gmail.com",
+    "license": "ISC",
+    "devDependencies": {
+        "@wdio/appium-service": "^7.20.3",
+        "@wdio/cli": "^7.20.5",
+        "@wdio/cucumber-framework": "^7.20.3",
+        "@wdio/local-runner": "^7.20.5",
+        "@wdio/mocha-framework": "^7.20.3",
+        "@wdio/spec-reporter": "^7.20.3",
+        "@wdio/sync": "^7.20.5",
+        "chromedriver": "^103.0.0",
+        "eslint": "^7.3.0",
+        "wdio-chromedriver-service": "^7.3.2",
+        "wdio-html-nice-reporter": "^8.0.3-beta2",
+        "wdio-wait-for": "^2.2.6",
+        "webdriverio": "^7.20.5"
+    },
+    "dependencies": {
+        "@cucumber/cucumber": "^7.1.0",
+        "@wdio/codemod": "^0.12.0",
+        "chai": "^4.2.0",
+        "jscodeshift": "^0.13.1",
+        "multiple-cucumber-html-reporter": "^1.16.2",
+        "wdio-cucumberjs-json-reporter": "^4.4.1"
+    }
+}
