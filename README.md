@@ -37,16 +37,8 @@ Follow the below commands -
 
 - Install dependencies using `npm i` in the terminal.
 
-- Update the deviceName and platFormVersion in `config/android.info.js` and `config/ios.info.js` respectively.
-
-- Execute `npm run ios` to run ios native app
-
-- Execute `npm run iosBrowser` to run ios safari browser
+- Update the deviceName and platFormVersion in `config/android.info.js` respectively.
 
 - Execute `npm run android` to run android native app
-
-- Execute `npm run androidBrowser` to run android chrome browser
-
-- Execute `npm run lint` to run eslint
 
 
