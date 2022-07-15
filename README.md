@@ -33,7 +33,7 @@ Click below to know more
 
 ## Running sample test
 Follow the below commands -
-- Clone the project - `https://github.com/Arjun-Ar91/WebdriverIO-V6-appium-cucumber-boilerplate.git`.
+- Clone the project - `https://github.com/pradheepprady/pradheepprady-WebDriverioboilerPlate-cucumber-appium-PradheepMeganathan.git`.
 
 - Install dependencies using `npm i` in the terminal.
 
